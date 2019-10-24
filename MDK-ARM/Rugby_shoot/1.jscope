@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options Connection="1" IsRTTSession="0" IsRTTWithTimeStamp="1" SamplingPeriod="100" SerialNo="0" JTAG_IRPre="-1" JTAG_DRPre="-1" IP="" TargetDevice="STM32F407VE" TargetInterface="JTAG" InterfaceSpeed="4000" />
+            </JLink>
+            <ScriptFile Name="F:\STM32CUBEMX_CODE\MDK\F407VET6\Rugby_shoot\MDK-ARM\Rugby_shoot\Rugby_shoot.axf" />
+            <ElfFile Name="F:\STM32CUBEMX_CODE\MDK\F407VET6\Rugby_shoot\MDK-ARM\Rugby_shoot\Rugby_shoot.axf" />
+            <DataFile Name="" />
+            <RawFile Name="" />
+            <Scope>
+                <Options TimeResolutionUs="10000000" />
+            </Scope>
+            <Trigger>
+                <Options Level="0.000000" Symbol="moto2_true_speed" On="1" Auto="0" Rise="1" Fall="0" />
+            </Trigger>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="moto2_true_speed" Address="0x2000009C" Type="float" TypeID="1" Size="4" GraphColorRed="102" GraphColorGreen="102" GraphColorBlue="178" YMinSampled="0" YMaxSampled="9" YAvgSampled="4" Offset="4" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="0" YResolution="2" MaxValue="-2147483648" File="../Src/stm32f4xx_it.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="Set_m2speed" Address="0x20000008" Type="float" TypeID="1" Size="4" GraphColorRed="160" GraphColorGreen="32" GraphColorBlue="240" YMinSampled="0" YMaxSampled="5" YAvgSampled="4" Offset="8" ShowInGraph="0" ACCoupling="0" YOffset="200" IsAutoConfig="0" YResolution="5" MaxValue="10" File="../Src/stm32f4xx_it.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="moto2_PID_PWM" Address="0x20000094" Type="int" TypeID="12" Size="4" GraphColorRed="255" GraphColorGreen="0" GraphColorBlue="0" YMinSampled="0" YMaxSampled="6141" YAvgSampled="1031" Offset="12" ShowInGraph="1" ACCoupling="0" YOffset="190" IsAutoConfig="0" YResolution="200" MaxValue="1000" File="../Src/stm32f4xx_it.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>
